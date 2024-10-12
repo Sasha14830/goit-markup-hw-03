@@ -18,6 +18,10 @@ a{
     text-decoration: none;
 }
 
+img{
+display: block;
+}
+
  .container {
     max-width: 1158px;
     padding: 0 15px;
@@ -131,28 +135,45 @@ background-color: #404bbf;
 
 .main-section-list{
     background-color: #2e2f42;
-    padding-top: 188px;
-    padding-bottom: 188px;
-    align-items: center;
+    padding: 188px 0;
 }
 
 .section-list{
-    max-width: 496px;
-    max-height: 120px;
+    margin-right: auto;
+    margin-left: auto;
     margin-bottom: 48px;
+    max-width: 496px;
 }
+
 .section-button{
-    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
     margin-bottom: 188px;
+    border-radius: 4px;
+    padding: 16px 32px;
+    border: none;
+    display: block;
+    margin: 0 auto;
+}
+.list-button{
+    display: flex;
+    align-items: center;
 }
 .main-section-information{
     padding-top: 120px;
     padding-bottom: 120px;
 }
 
-.information-item{
-    dap
+.information-list{
+    display: flex;
+    gap: 24px;
+
 }
+.information-team{
+    display: flex;
+    gap: 24px;
+}
+
 
 .main-section-team{
     background-color: #f4f4fd;
@@ -183,6 +204,9 @@ background-color: #2e2f42;
     background-color: #4d5ae5;
     cursor: pointer;
 }
+.information-item{
+    width: calc((100% - 3 * 24px)/4);
+}
 
 .information-name{
     font-weight: 500;
@@ -209,12 +233,18 @@ background-color: #2e2f42;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    max-width: 162px;
+    margin: 0 auto;
+    margin-bottom: 72px;
 }
 
 .team-item{
     background-color: #FFFFFF;
 }
 
+.team-link{
+    margin: 0 auto 32px;
+}
 
 .team-name {
    
@@ -248,6 +278,7 @@ font-weight: 400;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 
    
@@ -268,7 +299,27 @@ font-weight: 400;
         color: #434455;
 }
 
-.footer-name{
+
+.information-portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px 48px;
+   
+
+}
+
+.portfolio-item{
+    padding: 24px 48px;
+    width:((100% - 2 *  24px)/3);
+}
+
+.portfolio-link{
+    margin: 0 auto 32px;
+    display: block;
+}
+
+
+.footer-name {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
