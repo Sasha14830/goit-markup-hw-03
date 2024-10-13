@@ -235,7 +235,7 @@ background-color: #404bbf;
 }
 
 .team-container{
-    padding: 32px 16px;
+    padding: 32px 0;
 }
 
 .team-name {
@@ -263,8 +263,7 @@ font-weight: 400;
 .main-section-portfolio{
     padding-top: 120px;
     padding-bottom: 120px;
-    border: 1px solid #e7e9fc
-    padding: 32px 16px
+   
 }
 
 .section-portfolio{
@@ -290,6 +289,8 @@ font-weight: 400;
 
 .portfolio-container{
     padding: 32px 0;
+    border: 1px solid #e7e9fc
+
 }
 
 .portfolio-name{
@@ -334,7 +335,6 @@ font-weight: 400;
 }
 
 .footer-name {
-   
     max-width: 264px;
 }
 
